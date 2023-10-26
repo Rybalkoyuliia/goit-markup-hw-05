@@ -967,10 +967,11 @@ margin-right: 80px;
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     font-family: var(--main-font-family);
+    background-color: transparent;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.16px;
+    line-height: 1.17px;
     letter-spacing: 0.48px;
     outline: transparent;
     padding: 8px 16px;
@@ -985,6 +986,10 @@ margin-right: 80px;
 
 .checkbox-container {
     margin-bottom: 24px;
+}
+
+.checkbox-container-privacy {
+    margin-bottom: 16px;
 }
 
 .privacy-policy {

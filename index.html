@@ -459,20 +459,21 @@
         <div class="subscribe-field">
           <p class="subscribe-title">Subscribe</p>
           <form class="form-email">
-            <label for="e-mail" class="label-email"></label>
-            <input
-              class="input-email"
-              type="email"
-              name="subscribe-email"
-              id="e-mail"
-              placeholder="E-mail"
-            />
-            <button class="subscribe-button" type="submit">
-              Subscribe
-              <svg class="arrow" width="24" height="24">
-                <use href="./images/icons.svg#icon-arrow"></use>
-              </svg>
-            </button>
+            <label for="e-mail" class="label-email">
+              <input
+                class="input-email"
+                type="email"
+                name="subscribe-email"
+                id="e-mail"
+                placeholder="E-mail"
+              />
+              <button class="subscribe-button" type="submit">
+                Subscribe
+                <svg class="arrow" width="24" height="24">
+                  <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </label>
           </form>
         </div>
       </div>
@@ -538,7 +539,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="checkbox-container">
+          <div class="checkbox-container-privacy">
             <input
               type="checkbox"
               name="user-privacy"
@@ -546,14 +547,15 @@
               value="true"
               class="custom-checkbox visually-hidden"
             />
-            <label class="privacy-policy" for="user-privacy"> </label>
-            <span class="checkbox-item">
-              <svg class="vector" width="10" height="8">
-                <use href="./images/icons.svg#icon-vector"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a href="#" class="privacy-policy-link"> Privacy Policy</a>
+            <label class="privacy-policy" for="user-privacy">
+              <span class="checkbox-item">
+                <svg class="vector" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="#" class="privacy-policy-link"> Privacy Policy</a></label
+            >
           </div>
           <button type="submit" class="send-button" data-modal-open>
             Send
